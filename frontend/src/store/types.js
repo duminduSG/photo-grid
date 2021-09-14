@@ -1,0 +1,15 @@
+export const FETCH_IMAGES = 'FETCH_IMAGES';
+export const FETCH_IMAGES_SUCCESS = 'FETCH_IMAGES_SUCCESS';
+export const FETCH_IMAGES_ERROR = 'FETCH_IMAGES_ERROR';
+
+export const TOGGLE_IMAGE = 'TOGGLE_IMAGE';
+export const MOVE_STEP = 'MOVE_STEP';
+export const SAVE_GRID = 'SAVE_GRID';
+export const SAVE_GRID_SUCCESS = 'SAVE_GRID_SUCCESS';
+export const SAVE_GRID_ERROR = 'SAVE_GRID_ERROR';
+
+export const STEP = {
+    GALLERY: 'GALLERY',
+    SORTABLE_GRID: 'SORTABLE_GRID',
+    USER_GRID: 'USER_GRID'
+};
