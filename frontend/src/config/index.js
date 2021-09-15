@@ -1,5 +1,5 @@
 const config = {
-    backendUrl: 'http://localhost:5000',
+    backendUrl: process.env.REACT_APP_BACK_END_URL || 'http://localhost:5000',
     gridSize: 9
 };
 

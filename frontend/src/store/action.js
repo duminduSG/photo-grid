@@ -35,10 +35,6 @@ export const moveStep = (step) => (dispatch) => {
     dispatch({ type: MOVE_STEP, payload: { step } });
 };
 
-export const editGrid = () => (dispatch) => {
-    dispatch(moveStep(STEP.GALLERY));
-};
-
 export const keepGrid = (grid) => (dispatch) => {
     dispatch({ type: SAVE_GRID_SUCCESS, payload: grid });
 };

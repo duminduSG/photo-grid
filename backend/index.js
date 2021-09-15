@@ -20,5 +20,5 @@ app.use('/images', route.images);
 app.use('/grid', route.grid);
 
 connectDb().then(async () => {
-  app.listen(process.env.PORT, () => console.log(`App listening on port ${process.env.PORT}`));
+  app.listen(process.env.BACKEND_PORT, () => console.log(`App listening on port ${process.env.BACKEND_PORT}`));
 });

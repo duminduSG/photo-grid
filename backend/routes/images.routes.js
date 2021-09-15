@@ -3,9 +3,6 @@ import getImages from '../controllers/images.controller';
 
 const router = Router();
 
-router.get('/', async (req, res) => {
-  const images = await getImages();
-  return res.json(images);
-});
+router.get('/', (req, res) => getImages(req, res));
 
 export default router;
